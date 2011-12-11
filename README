@@ -1,0 +1,6 @@
+This project is a simple MVC framework using Sencha Touch 2.0 and PhoneGap 1.1.0. 
+
+issues:
+
+Dec 10, 2011: screens not loading from Tab icons - works in browser without Phonegap.js embedded.
+
