@@ -33,6 +33,7 @@
 		133296C21493B6EB00AAE128 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 133296C11493B6EB00AAE128 /* Capture.bundle */; };
 		133296C41493B6EB00AAE128 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 133296C31493B6EB00AAE128 /* PhoneGap.plist */; };
 		133296C81493B6EB00AAE128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133296C71493B6EB00AAE128 /* AppDelegate.m */; };
+		133296D11493B78F00AAE128 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 133296D01493B78F00AAE128 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +51,10 @@
 		1332969B1493B6EB00AAE128 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1332969D1493B6EB00AAE128 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1332969F1493B6EB00AAE128 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		133296A31493B6EB00AAE128 /* chime-Info.plist */ = {isa = PBXFileReference; path = "chime-Info.plist"; sourceTree = "<group>"; };
+		133296A31493B6EB00AAE128 /* chime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chime-Info.plist"; sourceTree = "<group>"; };
 		133296A51493B6EB00AAE128 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		133296A71493B6EB00AAE128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		133296A91493B6EB00AAE128 /* chime-Prefix.pch */ = {isa = PBXFileReference; path = "chime-Prefix.pch"; sourceTree = "<group>"; };
+		133296A91493B6EB00AAE128 /* chime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chime-Prefix.pch"; sourceTree = "<group>"; };
 		133296AA1493B6EB00AAE128 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		133296AF1493B6EB00AAE128 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		133296B31493B6EB00AAE128 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +65,10 @@
 		133296BF1493B6EB00AAE128 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		133296C11493B6EB00AAE128 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		133296C31493B6EB00AAE128 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		133296C61493B6EB00AAE128 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		133296C61493B6EB00AAE128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		133296C71493B6EB00AAE128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		133296CA1493B6EB00AAE128 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		133296CA1493B6EB00AAE128 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		133296D01493B78F00AAE128 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		133296A11493B6EB00AAE128 /* chime */ = {
 			isa = PBXGroup;
 			children = (
+				133296D01493B78F00AAE128 /* www */,
 				133296AA1493B6EB00AAE128 /* PhoneGap.framework */,
 				133296AC1493B6EB00AAE128 /* Resources */,
 				133296C51493B6EB00AAE128 /* Classes */,
@@ -291,6 +294,7 @@
 				133296C01493B6EB00AAE128 /* Default@2x.png in Resources */,
 				133296C21493B6EB00AAE128 /* Capture.bundle in Resources */,
 				133296C41493B6EB00AAE128 /* PhoneGap.plist in Resources */,
+				133296D11493B78F00AAE128 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +369,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -380,6 +385,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -390,6 +396,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -398,6 +405,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
