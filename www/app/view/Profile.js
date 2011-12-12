@@ -1,6 +1,6 @@
-Ext.define('app.view.Daily', {
+Ext.define('app.view.Profile', {
     extend: 'Ext.Container',
-    xtype: 'daily',
+    xtype: 'profile',
         
     config: {
         defaults: {
@@ -17,7 +17,7 @@ Ext.define('app.view.Daily', {
             {
                 xtype: 'panel',
 				flex: 2,
-                html: '<div style="width:100%; text-align: center;"><img src="touch/resources/themes/images/chime/opening-content.png"></div>'
+                html: '<div style="width:100%; text-align: center;"><img src="touch/resources/themes/images/chime/profile-content.png"></div>'
             }
 
         ]

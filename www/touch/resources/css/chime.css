@@ -2,6 +2,14 @@
 	background: #DDD url("../themes/images/chime/middle-bg-sml.jpg");	
 }
 
+.x-toolbar-light {
+	background: #DDD url("../themes/images/chime/topbar-bg-sml.jpg");
+}
+
+.x-toolbar.x-docked-top {
+	border-bottom: 0px solid #999;
+}	
+
 .x-tabbar-dark {
 	background: #DDD url("../themes/images/chime/bottombar-bg.jpg");
 }
@@ -9,6 +17,9 @@
 .x-tabbar-dark .x-button-label {
 	color: #EEE;
 	
+}
+.x-tabbar.x-docked-bottom {
+	border-top: 0px solid #999;
 }
 
 .x-tabbar-dark.x-docked-bottom .x-tab .x-button-icon {

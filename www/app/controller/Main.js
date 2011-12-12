@@ -5,7 +5,8 @@ Ext.define('app.controller.Main', {
         'Viewport',
         'Daily',
         'Sectionslist',
-        'Product'
+        'Product',
+        'Profile'
     ],
     
     models: [

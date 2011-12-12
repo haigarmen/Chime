@@ -21,21 +21,20 @@ Ext.define('app.view.Viewport', {
                 iconCls: 'daily',
                 xtype : 'daily'                 
             },
-
-            {
-                title: 'My catalog',
-                iconCls: 'bookmarks',
-                xtype: 'sectionslist'
-            },
             {
                 title: 'Symptoms',
                 iconCls: 'symptoms',
                 xtype: 'sectionslist'
             },
             {
+                title: 'Recipes',
+                iconCls: 'recipes',
+                xtype: 'sectionslist'
+            },
+            {
                 title: 'Profile',
                 iconCls: 'user',
-                xtype: 'sectionslist'
+                xtype: 'profile'
             }
 
         ]
