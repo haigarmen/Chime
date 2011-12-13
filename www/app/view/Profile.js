@@ -16,8 +16,8 @@ Ext.define('app.view.Profile', {
             },
             {
                 xtype: 'panel',
-				flex: 2,
-                html: '<div style="width:100%; text-align: center;"><img src="touch/resources/themes/images/chime/profile-content.png"></div>'
+				flex: 8,
+                html: '<div style="width:100%; "><img src="touch/resources/themes/images/chime/profile-content.png"></div>'
             }
 
         ]

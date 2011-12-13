@@ -11,16 +11,22 @@
  */
 
 Ext.Loader.setConfig({
-    enabled: true
-});
+    enabled: true,
+	icon: 'icon.png',
+	    glossOnIcon: false,
+	    tabletStartupScreen: 'tablet_startup.png',
+	    phoneStartupScreen: 'touch/resources/themes/images/chime/opening-screen-sml.jpg',
+	    viewport: {
+	        autoMaximize: false
+	    }
+	});
+
 
 Ext.application({
     name: 'app',
-    controllers: ['Main']
+    controllers: ['Main'],
 
-/*                
- launch: function() {
+launch: function() {
         console.log('launch');
     }
- */
 });
