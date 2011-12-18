@@ -1,9 +1,9 @@
 Ext.define('app.view.Viewport', {
     extend: 'Ext.tab.Panel',
-        
+
     config: {
         fullscreen: true,
-        
+
         tabBar: {
             docked: 'bottom',
             layout: {
@@ -19,7 +19,7 @@ Ext.define('app.view.Viewport', {
             {
                 title: 'Daily',
                 iconCls: 'daily',
-                xtype : 'daily'                 
+                xtype : 'daily'
             },
             {
                 title: 'Symptoms',

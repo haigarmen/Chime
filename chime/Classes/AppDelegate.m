@@ -18,7 +18,7 @@
 @synthesize invokeString;
 
 - (id) init
-{	
+{
 	/** If you need to do any extra app-specific initialization, you can do it here
 	 *  -jm
 	 **/
@@ -30,23 +30,23 @@
  */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	
+
 	NSArray *keyArray = [launchOptions allKeys];
-	if ([launchOptions objectForKey:[keyArray objectAtIndex:0]]!=nil) 
+	if ([launchOptions objectForKey:[keyArray objectAtIndex:0]]!=nil)
 	{
 		NSURL *url = [launchOptions objectForKey:[keyArray objectAtIndex:0]];
 		self.invokeString = [url absoluteString];
 		NSLog(@"chime launchOptions = %@",url);
 	}
-	
+
 	return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 // this happens while we are running ( in the background, or from within our own app )
 // only valid if chime.plist specifies a protocol to handle
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
-    // must call super so all plugins will get the notification, and their handlers will be called 
+    // must call super so all plugins will get the notification, and their handlers will be called
 	// super also calls into javascript global function 'handleOpenURL'
     return [super application:application handleOpenURL:url];
 }
@@ -62,7 +62,7 @@
 /**
  Called when the webview finishes loading.  This stops the activity view and closes the imageview
  */
-- (void)webViewDidFinishLoad:(UIWebView *)theWebView 
+- (void)webViewDidFinishLoad:(UIWebView *)theWebView
 {
 	// only valid if chime.plist specifies a protocol to handle
 	if(self.invokeString)
@@ -74,7 +74,7 @@
 	return [ super webViewDidFinishLoad:theWebView ];
 }
 
-- (void)webViewDidStartLoad:(UIWebView *)theWebView 
+- (void)webViewDidStartLoad:(UIWebView *)theWebView
 {
 	return [ super webViewDidStartLoad:theWebView ];
 }
@@ -83,7 +83,7 @@
  * Fail Loading With Error
  * Error - If the webpage failed to load display an error with the reason.
  */
-- (void)webView:(UIWebView *)theWebView didFailLoadWithError:(NSError *)error 
+- (void)webView:(UIWebView *)theWebView didFailLoadWithError:(NSError *)error
 {
 	return [ super webView:theWebView didFailLoadWithError:error ];
 }

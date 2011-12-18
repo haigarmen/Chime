@@ -1,13 +1,13 @@
 Ext.define('app.view.Profile', {
     extend: 'Ext.Container',
     xtype: 'profile',
-        
+
     config: {
         defaults: {
             styleHtmlContent: true
         },
 		layout: 'vbox',
-        
+
         items: [
             {
                 xtype: 'panel',

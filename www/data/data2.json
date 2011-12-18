@@ -4,11 +4,11 @@
             "id": 1,
             "name": "Section #1",
             "leaf": true
-        },        
+        },
         {
             "id": 2,
             "name": "Section #2",
-            
+
             "items": [
                 {
                     "id": 3,
@@ -30,12 +30,12 @@
                     "name": "Section #6",
                     "leaf": true
                 }
-            ]             
+            ]
         },
         {
             "id": 7,
             "name": "Section #7",
             "leaf": true
         }
-    ]		
+    ]
 }

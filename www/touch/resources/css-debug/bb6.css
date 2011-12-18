@@ -1107,10 +1107,10 @@ input, textarea {
  * @example
  * // SCSS
  * @include sencha-toolbar-ui('sub', #58710D, 'glossy');
- * 
+ *
  * // JS
  * var myTb = new Ext.Toolbar({title: 'My Green Glossy Toolbar', ui: 'sub'})
- * 
+ *
  * @class Ext.Toolbar
  * @xtype toolbar
  */
@@ -1307,10 +1307,10 @@ input, textarea {
  * @example
  * // SCSS
  * @include sencha-button-ui('secondary', #99A4AE, 'glossy');
- * 
+ *
  * // JS
  * var cancelBtn = new Ext.Button({text: 'Cancel', ui: 'secondary'});
- * 
+ *
  * @class Ext.Button
  * @xtype button
  */
@@ -1539,7 +1539,7 @@ input, textarea {
  * @example
  * // SCSS
  * @include sencha-button-ui('pink', #333, 'matte', #AE537A);
- * 
+ *
  * // JS
  * var tabs = new Ext.tab.Panel({
  *    tabBar: {
@@ -1549,7 +1549,7 @@ input, textarea {
  *    },
  *    ...
  * });
- * 
+ *
  * @class Ext.tab.Bar
  * @xtype tabbar
  */
@@ -1718,7 +1718,7 @@ input, textarea {
  * @param {string} $gradient Default gradient for the UI.
  * @param {color} $active-color Active color for the UI.
  * @param {string} $active-gradient Active gradient for the UI.
- * 
+ *
  * @class Ext.Carousel.Indicator
  * @xtype carouselindicator
  */
