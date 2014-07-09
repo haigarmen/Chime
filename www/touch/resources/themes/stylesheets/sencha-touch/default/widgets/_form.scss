@@ -118,7 +118,7 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
   .x-form {
     .x-scroll-container {
       background-color: $form-bg-color;
-      
+
       > .x-panel-inner {
         padding: 1em;
       }
@@ -342,7 +342,7 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
       @include ellipsis;
       display: block;
     }
-    
+
     .x-list-item {
       padding-right: 2.6em;
     }
@@ -384,7 +384,7 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
     @include box-orient(horizontal);
     @include box-align(center);
     @include box-pack(center);
-    
+
     .x-input-el {
       @include box-flex(1);
     }
@@ -448,7 +448,7 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
       }
     }
   }
-  
+
   // Create the dropdown arrow
   // for select fields
   .x-field-select {
@@ -484,9 +484,9 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
     }
 
     .x-form-field {
-      white-space: nowrap;  
-      width: 100%;                     
-      overflow: hidden; 
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
       text-overflow: ellipsis
     }
 
@@ -506,7 +506,7 @@ $form-scrollable-fields: '.x-field-slider, .x-field-toggle';
 //      text-align: center;
 //    }
 
-//    
+//
 //  }
 
 //  $form-clear-size: 1.1em;

@@ -245,8 +245,8 @@ $include-button-highlights: $include-highlights !default;
     margin: 0;
 
     @if $include-border-radius {
-      @include border-radius(0); 
-      
+      @include border-radius(0);
+
       &.x-first {
         @include border-left-radius($button-radius);
       }

@@ -1,13 +1,13 @@
 Ext.define('app.view.Daily', {
     extend: 'Ext.Container',
     xtype: 'daily',
-        
+
     config: {
         defaults: {
             styleHtmlContent: true
         },
 		layout: 'vbox',
-        
+
         items: [
             {
                 xtype: 'panel',

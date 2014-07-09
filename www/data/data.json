@@ -4,7 +4,7 @@
             "id": 1,
             "name": "General",
             "description": "",
-            
+
             "items": [
                 {
                     "id": 8,
@@ -146,18 +146,18 @@
                 },
 
             ]
-        },        
+        },
         {
             "id": 2,
             "name": "Section #2",
             "description": "",
-            
+
             "items": [
                 {
                     "id": 3,
                     "name": "Section #3",
                     "description": "",
-                    
+
                     "items": [
                         {
                             "id": 31,
@@ -177,7 +177,7 @@
                     "id": 4,
                     "name": "Section #4",
                     "description": "",
-                    
+
                     "items": [
                         {
                             "id": 33,
@@ -197,7 +197,7 @@
                     "id": 5,
                     "name": "Section #5",
                     "description": "",
-                    
+
                     "items": [
                         {
                             "id": 35,
@@ -211,7 +211,7 @@
                     "id": 6,
                     "name": "Section #6",
                     "description": "",
-                    
+
                     "items": [
                         {
                             "id": 36,
@@ -233,13 +233,13 @@
                         }
                     ]
                 }
-            ]             
+            ]
         },
         {
             "id": 7,
             "name": "Section #7",
             "description": "",
-            
+
             "items": [
                 {
                     "id": 39,
@@ -261,5 +261,5 @@
                 }
             ]
         }
-    ]		
+    ]
 }

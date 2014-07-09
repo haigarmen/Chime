@@ -1,14 +1,14 @@
 Ext.define('app.view.Product', {
     extend: 'Ext.form.Panel',
     id: 'productCard',
-    
+
     config: {
         modal: true,
         hideOnMaskTap: false,
         centered: true,
         height: '95%',
         width: '98%',
-        
+
         items: [
             {
                 docked: 'top',
@@ -20,7 +20,7 @@ Ext.define('app.view.Product', {
                 xtype: 'fieldset',
                 title: '',
                 id: 'productFieldset',
-                
+
                 items: [
                     {
                         xtype: 'hiddenfield',
@@ -47,7 +47,7 @@ Ext.define('app.view.Product', {
             {
                 docked: 'bottom',
                 xtype: 'toolbar',
-                
+
                 items: [
                     {
                         text: 'Close',
